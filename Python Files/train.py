@@ -20,8 +20,8 @@ def main():
         imgsz=416,            # Reduced image size for memory savings
         optimizer='Adam',     # Optimizer
         lr0=0.01,             # Initial learning rate
-        patience=25,
-        device='cuda'         # Optional: force use of GPU
+        patience=26,
+        device='cuda'         # Optional: force use of GP
     )
 
     # Save the trained model
