@@ -20,7 +20,7 @@ def main():
         imgsz=416,            # Reduced image size for memory savings
         optimizer='Adam',     # Optimizer
         lr0=0.01,             # Initial learning rate
-        patience=26,
+        patience=25,
         device='cuda'         # Optional: force use of GP
     )
 
