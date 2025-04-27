@@ -28,7 +28,7 @@ def select_best_images(input_folder, output_folder, top_n = 3512):
         inp_path = os.path.join(input_folder,img)
         cv2.imwrite(out_path, cv2.imread(inp_path))
         print(f"Saved image {img} successfully")
-    print("Top 3500 images saved successfully")
+    print("Top 2000 images saved successfully")
 
 if __name__=="__main__":
     input_folder = "D:/Projects/Sign Language Translation/Kaggle Dataset/L"
