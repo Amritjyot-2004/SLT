@@ -15,7 +15,7 @@ def main():
     # Train the model
     model.train(
         data=data_yaml_path,  # Path to the data.yaml file
-        epochs=300,           # Number of training epochs
+        epochs=120,           # Number of training epochs
         batch=8,              # Reduced batch size for 6GB GPU
         imgsz=416,            # Reduced image size for memory savings
         optimizer='Adam',     # Optimizer
